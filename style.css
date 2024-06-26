@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans", Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EBE5E3
+}
+
+.container {
+    display: flex;
+}
+
+.div-esquerda {
+    height: 587px;
+    background-color: #DBD0CD;
+    border-radius: 300px;
+    width: 1026px;
+}
+
+.txt {
+    margin: 5px 0 0 -260px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+h1 {
+    color:#71564f;;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Crystal Universe Regular";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.24px;
+}
+
+.dado-img {
+    width: 214px;
+    height: 135px;
+}
+
+
+input {
+    width: 153.676px;
+    height: 65.734px;
+    margin: 10px;
+    border-radius: 800px;
+    border: none;
+    background: #CCCDC7;
+    width: 138.549px;
+    height: 65.734px;
+    color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    appearance: none;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.div-direita {
+    margin: 0px 0 0 -550px;
+    width: 728px;
+    height: 588px;
+}
+
+button {
+    flex-shrink: 0;
+    border-radius: 800px;
+    border: none;
+    background: #75c7a2;
+    margin: 30px 0;
+    cursor: pointer;
+    color: #EEF3FA;
+    text-align: center;
+    font-family: "Noto Sans New Tai Lue";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.76px;
+    display: flex;
+    width: 333.383px;
+    height: 73.916px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+button:hover{
+    opacity: 0.4;
+}
+
+
+
+button:active {
+    opacity: 0.8;
+}
